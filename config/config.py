@@ -24,7 +24,7 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TeamYukki/YukkiMusicBot",
+    "https://github.com/AloneXBot/AloneXBypassMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -100,7 +100,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", None)
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/TeamAloneOp/AloneX/fork")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
